@@ -48,7 +48,7 @@ const Home = () => {
                 />
                 <button onClick={createPaste} className='bg-blue-900 h-10 rounded-2xl ml-5 hover:cursor-pointer w-[32vw] md:w-[15vw]'>
                     {
-                        pasteId ? "Update Paste" : "Create Paste"
+                        pasteId ? "Update Note" : "Create Note"
                     }
                 </button>
             </div>
